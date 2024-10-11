@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>me.jjm_223.smartgiants</groupId>
+    <artifactId>smartgiants-parent</artifactId>
+    <packaging>pom</packaging>
+    <version>2.5.0</version>
+    <name>SmartGiants Parent</name>
+
+    <properties>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
+
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.jetbrains</groupId>
+            <artifactId>annotations</artifactId>
+            <version>24.1.0</version>
+        </dependency>
+    </dependencies>
+
+    <modules>
+        <module>API</module>
+        <module>Plugin</module>
+        <!--<module>v1_8_R1</module>-->
+        <!--<module>v1_8_R2</module>-->
+        <!--<module>v1_8_R3</module>-->
+        <!--<module>v1_9_R1</module>-->
+        <!--<module>v1_9_R2</module>-->
+        <!--<module>v1_10_R1</module>-->
+        <!--<module>v1_11_R1</module>-->
+        <!--<module>v1_12_R1</module>-->
+        <!--<module>v1_13_R2</module>-->
+        <!--<module>v1_14_R1</module>-->
+        <module>v1_21_R1</module>
+    </modules>
+
+    <licenses>
+        <license>
+            <name>GPLv3</name>
+            <url>http://www.gnu.org/copyleft/gpl.html</url>
+        </license>
+    </licenses>
+</project>

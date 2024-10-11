@@ -1,0 +1,10 @@
+name: SmartGiants
+main: me.jjm_223.smartgiants.SmartGiants
+author: jjm_223
+description: Makes giants a little smarter/cuter/meaner.
+version: ${project.parent.version}
+commands:
+    smartgiants:
+        usage: /smartgiants
+        description: Commands for the SmartGiants plugin.
+        aliases: [sg, sgiants, giants]

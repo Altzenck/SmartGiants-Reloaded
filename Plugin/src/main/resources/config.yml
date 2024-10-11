@@ -1,0 +1,70 @@
+# This plugin and its config are not reloadable.
+# Note: This whole plugin is in somewhat of a beta. Use at your own risk.
+# Config explanation available here: https://goo.gl/U05dz4
+
+#### Behavior Settings ####
+
+# Should Giants be hostile? (If they are not hostile, they can be compared to sheep. Except useless.)
+isHostile: false
+
+isUndead: true
+
+# How much damage should Giants do? (5.0 damage is 2.5 hearts)
+attackDamage: 8.0
+
+# Should attack damage obey game difficulty (higher for hard mode, less for easy mode)?
+damageObeyGameDifficulty: true
+
+# Should this plugin handle drops for giants? Turn this off if you want to let something else manage them.
+handleDrops: true
+
+# Should giants drop there equipments (if handleDrops is true)
+canDropEquipment: false
+
+# How fast should giants move? This value is used to set the generic attribute. Treat it how you would if you were spawning it in game with NBT data.
+movementSpeed: 0.5
+
+# How far away should they be able to see players? This affects following distance for both tempting with apples and attacking players.
+followRange: 16.0
+
+# What should the maximum health of giants be?
+maxHealth: 100.0
+
+# Should Giants take arrow (and spectral arrow) damage?
+takeArrowDamage: true
+
+# Should Giants take tipped arrow damage?
+takeTippedArrowDamage: true
+
+# Can Giants pick up items and equip them
+canPickupLoot: false
+
+# Can Giants attack nearest villagers and irons golems (when isHostile is enabled)
+canAttackVillagers: false
+
+# Can Giants attack nearest turtles and their eggs (when isHostile is enabled)
+canAttackTurtles: false
+
+#### Natural spawn settings. ####
+
+# Let Giants spawn naturally?
+naturalSpawns: false
+
+# Spawn frequency (Witch is 5, Zombie is 100)
+frequency: 5.0
+
+# The smallest possible group size that can spawn
+minGroupAmount: 1
+
+# The largest possible group size that can spawn
+maxGroupAmount: 1
+
+# Should they spawn during day, or at night? (true = During the day, false = At night)
+daylight: false
+
+# Which worlds can they spawn in?
+# Example -
+# worlds:
+# - main
+# - main_resource
+worlds: []
